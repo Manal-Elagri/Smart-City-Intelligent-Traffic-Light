@@ -576,31 +576,31 @@ screenshots/
 
 ### Dashboard
 
-![Dashboard](screenshots/Capture d'écran 1.png)
+![Dashboard](screenshots/Capture_11.png)
 
 ### Contrôle des feux (Manuel)
 
-![Contrôle des feux](screenshots/Capture d'écran 3.png)
+![Contrôle des feux](screenshots/Capture_3.png)
 
 ### Contrôle vocal
 
-![Contrôle vocal](screenshots/Capture d'écran 8.png)
+![Contrôle vocal](screenshots/Capture_8.png)
 
 ### Carte Live
 
-![Carte Live](screenshots/Capture d'écran 4.png)
+![Carte Live](screenshots/Capture_4.png)
 
 ### Statistiques
 
-![Statistiques](screenshots/Capture d'écran 2.png)
+![Statistiques](screenshots/Capture_2.png)
 
 ### Gestion des incidents
 
-![Incidents](screenshots/Capture d'écran 6.png)
+![Incidents](screenshots/Capture_6.png)
 
 ### Chatbot
 
-![Chatbot](screenshots/Capture d'écran 9.png)
+![Chatbot](screenshots/Capture_9.png)
 
 ### Workflow N8N
 
