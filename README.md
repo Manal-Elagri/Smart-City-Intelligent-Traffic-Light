@@ -338,9 +338,6 @@ TWILIO_ACCOUNT_SID=your_account_sid
 TWILIO_AUTH_TOKEN=your_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_number
 ```
-
-⚠️ **Ne publiez jamais les véritables identifiants Twilio sur GitHub.**
-
 ---
 
 # 🔌 Configuration ESP8266
@@ -579,35 +576,35 @@ screenshots/
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Capture d'écran 1.png)
 
-### Contrôle des feux
+### Contrôle des feux (Manuel)
 
-![Contrôle des feux](screenshots/controle_manuel.png)
+![Contrôle des feux](screenshots/Capture d'écran 3.png)
 
 ### Contrôle vocal
 
-![Contrôle vocal](screenshots/controle_vocal.png)
+![Contrôle vocal](screenshots/Capture d'écran 8.png)
 
-### Détection YOLO
+### Carte Live
 
-![Détection YOLO](screenshots/detection_yolo.png)
+![Carte Live](screenshots/Capture d'écran 4.png)
 
 ### Statistiques
 
-![Statistiques](screenshots/statistiques.png)
+![Statistiques](screenshots/Capture d'écran 2.png)
 
 ### Gestion des incidents
 
-![Incidents](screenshots/incidents.png)
+![Incidents](screenshots/Capture d'écran 6.png)
 
 ### Chatbot
 
-![Chatbot](screenshots/chatbot.png)
+![Chatbot](screenshots/Capture d'écran 9.png)
 
 ### Workflow N8N
 
-![N8N](screenshots/n8n_workflow.png)
+![N8N](screenshots/n8n.png)
 
 ---
 
@@ -634,36 +631,6 @@ Elle comprend :
 * **API_DOCUMENTATION.md** — Documentation des endpoints API
 * **INSTALLATION.md** — Guide d'installation détaillé
 * **N8N_WORKFLOWS.md** — Configuration et exemples des workflows N8N
-
----
-
-# 🔐 Sécurité
-
-Les informations sensibles ne doivent jamais être publiées dans le dépôt.
-
-Ne pas versionner :
-
-```text
-.env
-API keys
-Tokens
-Passwords
-Private Webhook URLs
-Fichiers temporaires
-Modèles volumineux
-```
-
-Le fichier `.gitignore` permet notamment d'exclure :
-
-```text
-.env
-yolov8n.pt
-uploads/
-__pycache__/
-*.pyc
-```
-
-⚠️ Les clés et identifiants utilisés par **Twilio, Google Maps, N8N** ou d'autres services externes doivent rester privés.
 
 ---
 
